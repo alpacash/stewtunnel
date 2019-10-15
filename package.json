@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "localtunnel": "^2.0.0"
+  },
+  "name": "stewtunnel",
+  "version": "1.0.0",
+  "main": "bin/tunnel.js",
+  "bin": {
+    "stewtunnel": "tunnel.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "/usr/bin/env node bin/tunnel.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpacash/stewtunnel.git"
+  },
+  "author": "alpaca.sh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpacash/stewtunnel/issues"
+  },
+  "homepage": "https://github.com/alpacash/stewtunnel#readme",
+  "description": ""
+}
